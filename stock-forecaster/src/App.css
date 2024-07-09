@@ -1,0 +1,36 @@
+/* Stock Search -------------------------------------------------------------------------- */
+button{
+    all: unset;
+  }
+  
+  input{
+    width: 20vw;
+    min-width: 260px;
+    height: 24px;
+    border-radius: 6px;
+    outline: none;
+    padding: 4px 8px;
+    background-color: rgba(232, 232, 232, 0.6);
+    border: none;
+  }
+  
+  .result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .result-item{
+    text-align: start;
+    width: 20vw;
+    min-width: 260px;
+    padding: 8px;
+    background-color: #012E41;
+    border-radius: 6px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  
+  
